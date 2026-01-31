@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* navbar start */
+nav.navbar {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15%;
+  align-items: center;
+  z-index: 9998;
+}
+
+nav.navbar img.navbar-logo {
+  width: 4.8rem;
+  height: auto;
+}
+
+nav.navbar .navbar-nav {
+  display: flex;
+}
+
+.navbar-nav a {
+  color: black;
+  margin-left: 3rem;
+  transition: all .3s;
+}
+
+.navbar-nav a:hover {
+  color: #ff5e00;
+}
+
+.navbar-nav a::after {
+  content: "";
+  display: block;
+  padding-bottom: .1rem;
+  border-bottom: .12rem solid #ff5e00;
+  transform: scaleX(0);
+  transition: all .3s linear;
+}
+
+.navbar-nav a:hover::after {
+  transform: scaleX(0.7);
+}
+
+nav.navbar .navbar-extra {
+  display: none;
+}
+
+.navbar-extra .burger-menu {
+  display: none;
+}
+
+.burger-menu div {
+  width: 25px;
+  height: 2px;
+  background-color: black;
+  margin: 6.5px;
+  transition: all .3s;
+}
+/* navbar end  */
+
+/* hero start */
+section.hero {
+  position: relative;
+}
+
+section.hero .background-hero {
+  height: 775px;
+  background-image: url(../img/background/bg-1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15%;
+}
+
+.hero-left h1.hero-heading {
+  color: white;
+  font-weight: 200;
+  font-size: 5rem;
+  line-height: 5.5rem;
+}
+
+h1.hero-heading span {
+  font-weight: 700;
+}
+
+.hero-left p.hero-paragraf {
+  color: white;
+  margin-top: 1rem;
+}
+
+.hero-left a.hero-link {
+  display: inline-block;
+  color: #ff5e00;
+  background-color: white;
+  padding: 1rem 3rem;
+  margin-top: 2rem;
+  font-weight: 500;
+  border-radius: 30px;
+}
+
+.hero-right img {
+  width: 580px;
+  position: absolute;
+  top: 165px;
+  right: 280px;
+}
+/* hero end */
