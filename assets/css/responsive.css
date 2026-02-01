@@ -25,6 +25,10 @@
   section.hero .background-hero {
     padding: 0 17%;
   }
+
+  .hero-right img {
+    right: 300px;
+  }
 }
 
 /* 80% = 1600px */
@@ -39,9 +43,9 @@
   }
 
   .hero-right img {
-  width: 580px;
-  top: 165px;
-  right: 280px;
+    width: 580px;
+    top: 165px;
+    right: 280px;
   }
 }
 
@@ -54,12 +58,24 @@
   section.hero .background-hero {
     padding: 0 11%;
   }
+
+  .hero-right img {
+    right: 230px;
+  }
 }
 
 /* laptop */
 @media (max-width: 1280px) {
-  body {
-    background-color: blue;
+  nav.navbar {
+    padding: 0 6%;
+  }
+
+  section.hero .background-hero {
+    padding: 0 6%;
+  }
+
+  .hero-right img {
+    right: 200px;
   }
 }
 
