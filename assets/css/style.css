@@ -24,8 +24,8 @@ nav.navbar {
   right: 0;
   height: 6rem;
   display: flex;
-  justify-content: space-between;
-  padding: 0 15%;
+  justify-content: center;
+  gap: 32rem;
   align-items: center;
   z-index: 9998;
 }
@@ -85,14 +85,20 @@ section.hero {
 }
 
 section.hero .background-hero {
-  height: 775px;
-  background-image: url(../img/background/bg-1.png);
+  /* height: 775px; */
+  height: 700px;
+  background-image: url(../img/background/banner.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 15%;
+  justify-content: center;
+  gap: 32rem;
+}
+
+.background-hero .hero-left {
+  margin-top: 6rem;
+  margin-right: 10.5rem;
 }
 
 .hero-left h1.hero-heading {
@@ -109,7 +115,7 @@ h1.hero-heading span {
 .hero-left p.hero-paragraf {
   color: white;
   margin-top: 1rem;
-  font-size: .95rem;
+  font-size: .96rem;
   font-weight: 300;
   line-height: 2.1rem;
 }
@@ -118,16 +124,17 @@ h1.hero-heading span {
   display: inline-block;
   color: #ff5e00;
   background-color: white;
-  padding: 1.1rem 3rem;
+  padding: 1.1rem 3.1rem;
   margin-top: 3rem;
   font-weight: 500;
   border-radius: 30px;
 }
 
 .hero-right img {
-  width: 580px;
+  /* width: 580px; */
   position: absolute;
-  top: 165px;
-  right: 280px;
+  width: 760px;
+  top: 12.3rem;
+  right: 8rem;
 }
 /* hero end */
