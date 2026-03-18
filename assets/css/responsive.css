@@ -1,6 +1,5 @@
 /* 65% = 1978px*/
 @media (max-width: 1978px) {
-
 }
 
 /* 75% = 1707px */
@@ -9,22 +8,61 @@
 
 /* 80% = 1600px */
 @media (max-width: 1600px) {
+  /* hero start */
   section.hero .background-hero {
     height: 700px;
   }
-
+  
   .hero-right img {
     width: 760px;
     top: 12.3rem;
     right: 10rem;
   }
+  /* hero end */
+
+  /* services start */
+  section.services .card-services-group {
+    gap: 2rem;
+  }
+
+  .card-services-group .card-service {
+    width: 20rem;
+    padding: 4.5rem 1.5rem;
+  }
+
+  .card-service .service-icon-bg {
+    width: 130px;
+    height: 110px;
+  }
+
+  .service-icon-bg img {
+    width: 68px;
+    height: auto;
+  }
+
+  .card-service .service-text {
+    margin: 23px 0 0 0;
+  }
+
+  .service-text h3 {
+    font-size: 1.4rem;
+    padding: 0 0 15px 0;
+  }
+  
+  .service-text p {
+    font-size: .9rem;
+    line-height: 1.6rem;
+  }
+  /* services end */
 }
 
 /* 90% = 1423px*/
 @media (max-width: 1423px) {
+  /* hero start */
   .hero-right img {
     right: 9rem;
   }
+  /* hero end */
 }
 
 /* laptop */
@@ -123,9 +161,25 @@
     display: none;
   }
   /* hero end */
+
+  /* services start */
+  section.services h1.title-services {
+    font-size: 2.6rem;
+    padding: 0 1.5rem;
+    line-height: 2.8rem;
+  }
+
+  section.services p.paragraph-services {
+    font-size: .9rem;
+    padding: 0 1.5rem;
+    margin: .5rem auto 0 auto;
+  }
+  /* services end */
 }
 
 /* mobile phone */
 @media (max-width: 490px) {
-  
+  section.services p.paragraph-services {
+    margin: 1rem auto 0 auto;
+  }
 }

@@ -152,7 +152,7 @@ section.services p.paragraph-services {
   text-align: center;
   font-weight: 400;
   color: gray;
-  width: 38rem;
+  max-width: 38rem;
   margin: .1rem auto 0 auto;
 }
 
@@ -165,12 +165,18 @@ section.services .card-services-group {
 }
 
 .card-services-group .card-service {
-  height: 30.5rem;
-  /* height: auto; */
+  height: auto;
   width: 22rem;
-  border: 1px solid rgb(255, 203, 173);
+  box-shadow: 0 0 0 1px rgb(255, 203, 173);
   border-radius: 10px;
   padding: 4.5rem 1.5rem;
+}
+
+.card-service.cs-hover-1:hover,
+.card-service.cs-hover-2:hover,
+.card-service.cs-hover-3:hover {
+  box-shadow: 0 0 25px rgb(231, 231, 231);
+  transition: all .8s;
 }
 
 .card-service .service-icon-bg {
