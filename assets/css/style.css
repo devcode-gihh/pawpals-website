@@ -209,3 +209,51 @@ section.services .card-services-group {
   color: #909092;
 }
 /* services end */
+
+/* about start */
+section.about {
+  padding: 4.6rem 0 1.5rem 0;
+}
+
+section.about .about-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10rem;
+}
+
+.about-left img {
+  width: 28rem;
+}
+
+.about-right {
+  width: 33.8rem;
+}
+
+.about-right h1 {
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  font-weight: 300;
+}
+
+.about-right h1 span {
+  font-weight: 700;
+}
+
+.about-right p {
+  margin: 1.9rem 0 3.35rem 0;
+  line-height: 1.75rem;
+  color: #6f6f70;
+}
+
+.about-right a.btn-about {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: white;
+  padding: 17px 55px;
+  border-radius: 30px;
+  background-color: #f05800;
+}
+/* about end */
